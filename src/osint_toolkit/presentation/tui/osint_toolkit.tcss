@@ -1,0 +1,114 @@
+/* OSINT Toolkit - Textual CSS */
+
+#sidebar {
+    width: 30%;
+    border-right: solid $primary;
+    padding: 1;
+}
+
+#main-content {
+    width: 70%;
+}
+
+#category-tree {
+    height: 100%;
+    border: none;
+}
+
+#tool-table {
+    height: 100%;
+}
+
+#tool-detail {
+    height: 100%;
+    padding: 1;
+    border: solid $primary;
+    overflow-y: auto;
+}
+
+#search-input {
+    dock: bottom;
+    margin: 1;
+}
+
+#command-palette {
+    align: center middle;
+    width: 60%;
+    height: 50%;
+    background: $surface;
+    border: thick $primary;
+    padding: 1;
+}
+
+#cmd-input {
+    width: 100%;
+    margin-bottom: 1;
+}
+
+#cmd-results {
+    height: 1fr;
+}
+
+#execute-modal {
+    align: center middle;
+    width: 50%;
+    height: 60%;
+    background: $surface;
+    border: thick $primary;
+    padding: 1;
+}
+
+#modal-title {
+    text-align: center;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+#args-container {
+    height: 1fr;
+    overflow-y: auto;
+    margin-bottom: 1;
+}
+
+#modal-buttons {
+    align: center middle;
+    height: auto;
+}
+
+Button {
+    margin: 0 1;
+}
+
+DataTable {
+    border: solid $primary;
+}
+
+DataTable > .datatable--header {
+    background: $primary;
+    color: $text;
+}
+
+DataTable > .datatable--cursor {
+    background: $accent;
+    color: $text;
+}
+
+Tree {
+    border: none;
+}
+
+Tree > .tree--node {
+    padding: 0 1;
+}
+
+Tabs {
+    background: $surface;
+}
+
+TabbedContent {
+    height: 1fr;
+}
+
+TabPane {
+    height: 1fr;
+}
